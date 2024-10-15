@@ -120,7 +120,7 @@ async function displayAlbums() {
 }
 
 async function main() {
-  await getSongs("songs/SaripodhaSanivaram");
+  await getSongs("songs/Devara");
   playMusic(songs[0], true);
 
   // display all the albums on the page
